@@ -15,8 +15,8 @@ The analysis uses the Stroke Prediction dataset from [Kaggle](https://www.kaggle
 
 ## 📗 Notebooks
 
-- `1_cleaning_and_eda.ipynb`: Contains the exploratory data analysis and initial insights
-- `2_project_modeling.ipynb`: Includes model development, evaluation, and selection
+- [1_cleaning_and_eda.ipynb](https://github.com/MeiChieh/stroke-prediction/blob/main/1_cleaning_and_eda.ipynb): Contains the exploratory data analysis and initial insights
+- [2_project_modeling.ipynb](https://github.com/MeiChieh/stroke-prediction/blob/main/2_modeling.ipynb): Includes model development, evaluation, and selection
 
 ## 📈 Analysis Structure
 
