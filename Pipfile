@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+seaborn = "*"
+termcolor = "*"
+scikit-learn = "*"
+pyflakes = "*"
+pyqt5 = "*"
+matplotlib = "==3.7.3"
+feature-engine = "*"
+joblib = "*"
+jinja2 = "*"
+lightgbm = "*"
+plotly-express = "*"
+autofeat = "*"
+xgboost = "*"
+ipykernel = "*"
+nbformat = "*"
+eli5 = "*"
+shap = "*"
+ipywidgets = "*"
+phik = "*"
+yellowbrick = "*"
+fastapi = "*"
+flask = "*"
+requests = "*"
+uvicorn = "*"
+pydantic = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
