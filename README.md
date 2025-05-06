@@ -4,6 +4,8 @@
 
 This project analyzes a stroke prediction dataset to build models that can identify patients at risk of stroke based on various health parameters. The models can assist healthcare professionals in diagnosing stroke risk and providing preventive recommendations to high-risk individuals.
 
+The most performant model is encapsulated in an app, it can be accessed through the FastAPI endpoint after running the Docker container.
+
 ## 📚 Dataset
 
 The analysis uses the Stroke Prediction dataset from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset), which includes:
@@ -94,15 +96,6 @@ as the instances with stroke almost only occurs in elder people, it is hard for 
    docker build -t stroke-prediction .
    docker run -p 8000:8000 stroke-prediction
    ```
-
-## 💡 Usage
-
-The analysis is split across two main notebooks:
-
-- `1_cleaning_and_eda.ipynb`: Contains the exploratory data analysis and initial insights
-- `2_project_modeling.ipynb`: Includes model development, evaluation, and selection
-
-The deployed model can be accessed through the FastAPI endpoint after running the Docker container.
 
 ## 🔄 Future Improvements
 
